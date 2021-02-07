@@ -79,11 +79,11 @@ test:
 #
 # You can use this database configuration with:
 #
-   production:
-     url: <%= ENV['DATABASE_URL'] %>
-#
+production:
+  url: <%= ENV['DATABASE_URL'] %>
+
 # production:
-  # <<: *default
-  # database: docker_rails_production
-  # username: docker_rails
-  # password: <%= ENV['DOCKER_RAILS_DATABASE_PASSWORD'] %>
+# <<: *default
+# database: docker_rails_production
+# username: docker_rails
+# password: <%= ENV['DOCKER_RAILS_DATABASE_PASSWORD'] %>
